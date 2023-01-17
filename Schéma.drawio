@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-01-17T08:59:55.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="SqVZTG_JSMfUHCNOFpiU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-17T09:05:32.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.8.5" etag="mhVvAZtYfToRzo5FGIDv" type="github">
   <diagram id="ZHwAZTy64rg_XTrjgx6D" name="Page-1">
     <mxGraphModel dx="1877" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="MFdFgDO3fqfFfea4Wmhk-1" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="470" y="253.5" width="78" height="53" as="geometry" />
+          <mxGeometry x="340" y="255" width="78" height="53" as="geometry" />
         </mxCell>
         <mxCell id="MFdFgDO3fqfFfea4Wmhk-4" value="" style="shape=mxgraph.cisco.switches.workgroup_switch;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="650" y="255" width="101" height="50" as="geometry" />
@@ -25,10 +25,10 @@
         <mxCell id="MFdFgDO3fqfFfea4Wmhk-9" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
           <mxGeometry x="110" y="450" width="100" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="MFdFgDO3fqfFfea4Wmhk-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="MFdFgDO3fqfFfea4Wmhk-5" target="MFdFgDO3fqfFfea4Wmhk-26">
+        <mxCell id="MFdFgDO3fqfFfea4Wmhk-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="MFdFgDO3fqfFfea4Wmhk-5" target="MFdFgDO3fqfFfea4Wmhk-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="310" y="310" as="sourcePoint" />
-            <mxPoint x="250" y="279" as="targetPoint" />
+            <mxPoint x="270" y="282.9026258205689" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MFdFgDO3fqfFfea4Wmhk-11" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -79,20 +79,11 @@
         <mxCell id="MFdFgDO3fqfFfea4Wmhk-25" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;10.213.1.1&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="140" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MFdFgDO3fqfFfea4Wmhk-26" value="" style="shape=mxgraph.cisco.routers.router;sketch=0;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="257" width="78" height="53" as="geometry" />
+        <mxCell id="MFdFgDO3fqfFfea4Wmhk-32" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;10.213.255.254&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="418" y="225" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="MFdFgDO3fqfFfea4Wmhk-28" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="MFdFgDO3fqfFfea4Wmhk-26" target="MFdFgDO3fqfFfea4Wmhk-1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="310" y="320" as="sourcePoint" />
-            <mxPoint x="360" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="MFdFgDO3fqfFfea4Wmhk-29" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;10.214.255.254&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="279" y="223.5" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="MFdFgDO3fqfFfea4Wmhk-31" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;10.213.255.254&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="479" y="210" width="60" height="30" as="geometry" />
+        <mxCell id="MFdFgDO3fqfFfea4Wmhk-33" value="&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;&lt;font style=&quot;vertical-align: inherit;&quot;&gt;10.214.255.254&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="225" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
