@@ -10,25 +10,25 @@ Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS
 # Commandes Réseau
 |LINUX | RACCOURCI | WINDOWS 
 |-|-|-|
-[ip addr show](#ip-addr-show)|ip a|if config
-[ping '@ip'](#ping-@ip)||ping '@ip'
-[ip addr add '@ip' dev "Nom De Votre Interface"](#ip-addr-add-ip-dev-nom-de-votre-interface)|ip a a ‘@ip’ dev "Nom De Votre Interface"|netsh interface ip set address name="interface" static '@ip' masque '@DNS'
-[ip addr del ‘@ip’ dev "Nom De Votre Interface"](#ip-addr-del-ip-dev-nom-de-votre-interface)|ip a del ‘@ip’ dev "Nom De Votre Interface"|ipconfig /release
-[dhclient](#dhclient)||ipconfig /renew
-[ip link set up dev "Nom De Votre Interface"](#ip-link-set-up-dev-nom-de-votre-interface)|ip l s up dev "Nom De Votre Interface"|netsh int set int name="NomCarteReseau" admin=enable
-[ip link set down dev "Nom De Votre Interface"](#ip-link-set-down-dev-nom-de-votre-interface)|ip l s down dev "Nom De Votre Interface"|netsh int set int name="NomCarteReseau" admin=disable
-[ip route add default via ‘@ip’ dev "Nom De Votre Interface"](#ip-route-add-default-via-ip-dev-nom-de-votre-interface)|ip r a default via ‘@ip’ dev "Nom De Votre Interface"|route ADD 0.0.0.0 MASK
-[ip route flush dev "Nom De Votre Interface"](#ip-route-flush-dev-nom-de-votre-interface)|ip r flush dev "Nom De Votre Interface"|
+[ip addr show](#ip-addr-show)|ip a|[if config](#if-config)
+[ping '@ip'](#ping-@ip)||[ping '@ip'](#ping-ip-1)
+[ip addr add '@ip' dev "Nom De Votre Interface"](#ip-addr-add-ip-dev-nom-de-votre-interface)|ip a a ‘@ip’ dev "Nom De Votre Interface"|[netsh interface ip set address name="interface" static '@ip' masque '@DNS'](#netsh-interface-ip-set-address-nameinterface-static-ip-masque-dns)
+[ip addr del ‘@ip’ dev "Nom De Votre Interface"](#ip-addr-del-ip-dev-nom-de-votre-interface)|ip a del ‘@ip’ dev "Nom De Votre Interface"|[ipconfig /release](#ipconfig-release)
+[dhclient](#dhclient)||[ipconfig /renew](#ipconfig-renew)
+[ip link set up dev "Nom De Votre Interface"](#ip-link-set-up-dev-nom-de-votre-interface)|ip l s up dev "Nom De Votre Interface"|[netsh int set int name="NomCarteReseau" admin=enable](#netsh-int-set-int-namenomcartereseau-adminenable)
+[ip link set down dev "Nom De Votre Interface"](#ip-link-set-down-dev-nom-de-votre-interface)|ip l s down dev "Nom De Votre Interface"|[netsh int set int name="NomCarteReseau" admin=disable](#netsh-int-set-int-namenomcartereseau-admindisable)
+[ip route add default via ‘@ip’ dev "Nom De Votre Interface"](#ip-route-add-default-via-ip-dev-nom-de-votre-interface)|ip r a default via ‘@ip’ dev "Nom De Votre Interface"|[route ADD 0.0.0.0 MASK](#route-add-0000-mask)
+[ip route flush dev "Nom De Votre Interface"](#ip-route-flush-dev-nom-de-votre-interface)|ip r flush dev "Nom De Votre Interface"|[route delete 0.0.0.0](#route-delete-0000)
 [mii-tool -w "Nom De Votre Interface"](#mii-tool--w-nom-de-votre-interface)||Pas de commande équivalente
-[ip link show "Nom De Votre Interface"](#ip-link-show-nom-de-votre-interface)||ifconfig /all
-[ip addr flush dev "Nom De Votre Interface"](#ip-addr-flush-dev-nom-de-votre-interface)|ip a flush dev "Nom De Votre Interface"|ipconfig /release
-[ip neighbour](#ip-neighbour)|ip n|arp
-[ip neighbour flush all](#ip-neighbour-flush-all)|ip n flush all|arp -d
-[ifconfig](#ifconfig)||
-[traceroute @'ip'](#traceroute-ip)||tracert @'ip'
-[host](#host)||
-[netstat](#netstat)||netstat
-[telnet](#telnet)||telnet
+[ip link show "Nom De Votre Interface"](#ip-link-show-nom-de-votre-interface)||[ifconfig /all](#ifconfig-all)
+[ip addr flush dev "Nom De Votre Interface"](#ip-addr-flush-dev-nom-de-votre-interface)|ip a flush dev "Nom De Votre Interface"|[ipconfig /release](#ipconfig-release-1)
+[ip neighbour](#ip-neighbour)|ip n|[arp](#arp)
+[ip neighbour flush all](#ip-neighbour-flush-all)|ip n flush all|[arp -d](#arp--d)
+[ifconfig](#ifconfig)||[encours1](#encours1)
+[traceroute @'ip'](#traceroute-ip)||[tracert @'ip'](#tracert-ip)
+[host](#host)||[encours2](#encours2)
+[netstat](#netstat)||[netstat](#netstat-1)
+[telnet](#telnet)||[telnet](#telnet-1)
 
 # Commandes OS
 | LINUX | RACCOURCI | WINDOWS
@@ -40,7 +40,7 @@ ls||
 
 
 
-# Détail et utilisations des commandes :
+# Détail et utilisations des commandes Linux :
 
 ## ip addr show
 #### Affiche toute la configuration réseau (Adresse IP, nom des interfaces, etc…)
@@ -123,3 +123,42 @@ ls||
 
 ## telnet
 #### 
+
+
+# Détail et utilisations des commandes Windows :
+
+## if config
+
+## ping '@ip'
+
+## netsh interface ip set address name="interface" static '@ip' masque '@DNS'
+
+## ipconfig /release
+
+## ipconfig /renew
+
+## netsh int set int name="NomCarteReseau" admin=enable
+
+## netsh int set int name="NomCarteReseau" admin=disable
+
+## route ADD 0.0.0.0 MASK
+
+## route delete 0.0.0.0
+
+## ifconfig /all
+
+## ipconfig /release
+
+## arp
+
+## arp -d
+
+## 	encours1
+
+## tracert @'ip'
+
+## encours2
+
+## 	netstat
+
+## 	telnet
