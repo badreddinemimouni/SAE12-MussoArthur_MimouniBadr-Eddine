@@ -43,21 +43,83 @@ ls||
 # Détail et utilisations des commandes :
 
 ## ip addr show
+#### Affiche toute la configuration réseau (Adresse IP, nom des interfaces, etc…)
+![ipaddrshow](images/ipaddrshow.png)
+
 ## ping @ip
+#### Envoie des paquets icmp à l’adresse donnée. On peut l’utiliser pour voir si une machine est bien connectée au réseau.
+![ping](images/ping.png)
+
 ## ip addr add '@ip' dev "Nom De Votre Interface"
+#### Permet d’ajouter une adresse IP à votre machine. Avec ip a on peut voir que l’adresse IP a bien été ajoutée à l’interface demandé.
+![ipaddradd](images/ipaddradd.png)
+
 ## ip addr del ‘@ip’ dev "Nom De Votre Interface"
+#### Permet de supprimer une adresse ip précise.
+![ipaddrdel](images/ipaddrdel.png)
+
 ## dhclient
+#### dhclient fonctionne sur le modèle client-serveur. Un serveur qui détient la politique d’attribution des configurations IP envoie une configuration au client pour une durée donnée.
+![dhclient](images/dhcleint_.png)
+
 ## ip link set up dev "Nom De Votre Interface"
+#### Cette commande permet d’activer la carte réseau demandée.
+![iplinksetup]()
+
 ## ip link set down dev "Nom De Votre Interface"
+#### Cette commande permet d’activer la carte réseau demandée.
+
+
+
 ## ip route add default via ‘@ip’ dev "Nom De Votre Interface"
+#### Cette commande permet d’éteindre la carte réseau demandée.
+
+
 ## ip route flush dev "Nom De Votre Interface"
+#### Cette commande permet d’ajouter une route par défaut.
+
+
+
 ## mii-tool -w "Nom De Votre Interface"
+#### 
+
+
+
 ## ip link show "Nom De Votre Interface"
+#### 
+
+
 ## ip addr flush dev "Nom De Votre Interface"
+#### 
+
+
 ## ip neighbour
+#### 
+
+
 ## ip neighbour flush all
+#### 
+
+
+
 ## ifconfig
+#### 
+
+
+
 ## traceroute @'ip'
+#### 
+
+
+
 ## host
+#### 
+
+
+
 ## netstat
+#### 
+
+
 ## telnet
+#### 
