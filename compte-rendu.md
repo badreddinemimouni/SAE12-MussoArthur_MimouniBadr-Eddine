@@ -77,7 +77,7 @@ ls||
 
 
 ## <u>ip route flush dev "Nom De Votre Interface"</u>
-#### 
+#### Suprimme toutes les routes, default et static.
 
 
 
