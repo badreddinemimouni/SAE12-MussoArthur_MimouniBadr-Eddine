@@ -42,124 +42,126 @@ ls||
 
 # Détail et utilisations des commandes Linux :
 
-## ip addr show
+## <u>ip addr show</u>
 #### Affiche toute la configuration réseau (Adresse IP, nom des interfaces, etc…)
 ![ipaddrshow](images/ipaddrshow.png)
 
-## ping @ip
+## <u>ping @ip</u>
 #### Envoie des paquets icmp à l’adresse donnée. On peut l’utiliser pour voir si une machine est bien connectée au réseau.
 ![ping](images/ping.png)
 
-## ip addr add '@ip' dev "Nom De Votre Interface"
+## <u>ip addr add '@ip' dev "Nom De Votre Interface"</u>
 #### Permet d’ajouter une adresse IP à votre machine. Avec ip a on peut voir que l’adresse IP a bien été ajoutée à l’interface demandé.
 ![ipaddradd](images/ipaddradd.png)
 
-## ip addr del ‘@ip’ dev "Nom De Votre Interface"
+## <u>ip addr del ‘@ip’ dev "Nom De Votre Interface"</u>
 #### Permet de supprimer une adresse ip précise.
 ![ipaddrdel](images/ipaddrdel.png)
 
-## dhclient
+## <u>dhclient</u>
 #### dhclient fonctionne sur le modèle client-serveur. Un serveur qui détient la politique d’attribution des configurations IP envoie une configuration au client pour une durée donnée.
 ![dhclient](images/dhcleint_.png)
 
-## ip link set up dev "Nom De Votre Interface"
-#### Cette commande permet d’activer la carte réseau demandée.
-![iplinksetup]()
-
-## ip link set down dev "Nom De Votre Interface"
+## <u>ip link set up dev "Nom De Votre Interface"</u>
 #### Cette commande permet d’activer la carte réseau demandée.
 
 
 
-## ip route add default via ‘@ip’ dev "Nom De Votre Interface"
+## <u>ip link set down dev "Nom De Votre Interface"</u>
+#### Cette commande permet d’activer la carte réseau demandée.
+
+
+
+## <u>ip route add default via ‘@ip’ dev "Nom De Votre Interface"</u>
 #### Cette commande permet d’éteindre la carte réseau demandée.
 
 
-## ip route flush dev "Nom De Votre Interface"
+## <u>ip route flush dev "Nom De Votre Interface"</u>
 #### Cette commande permet d’ajouter une route par défaut.
 
 
 
-## mii-tool -w "Nom De Votre Interface"
+## <u>mii-tool -w "Nom De Votre Interface"</u>
 #### Permet de voir l’état de la liaison link ok/link no. Si la carte réseau est bien branchée sur le réseau.
 
 
 
 
-## ip link show "Nom De Votre Interface"
+## <u>ip link show "Nom De Votre Interface"</u>
 #### Pour regarder l’état de la carte réseau.
 
 
-## ip addr flush dev "Nom De Votre Interface"
+## <u>ip addr flush dev "Nom De Votre Interface"</u>
 #### Supprime les adresses IP de cette interface.
 
 
-## ip neighbour
+## <u>ip neighbour</u>
 #### Permet de voir le cache ARP.
 
 
-## ip neighbour flush all
+## <u>ip neighbour flush all</u>
 #### Permet de supprimer le cache ARP.
 
 
 
-## ifconfig
+## <u>ifconfig</u>
 #### 
 
 
 
-## traceroute @'ip'
+## <u>traceroute @'ip'</u>
 #### 
 
 
 
-## host
+## <u>host</u>
 #### 
 
 
 
-## netstat
+## <u>netstat</u>
 #### 
 
 
-## telnet
+## <u>telnet</u>
 #### 
 
 
 # Détail et utilisations des commandes Windows :
 
-## if config
 
-## ping '@ip'
+## <u>if config</u>
 
-## netsh interface ip set address name="interface" static '@ip' masque '@DNS'
+## <u>ping '@ip'</u>
 
-## ipconfig /release
+## <u>netsh interface ip set address name="interface" static '@ip' masque '@DNS'</u>
 
-## ipconfig /renew
+## <u>ipconfig /release</u>
 
-## netsh int set int name="NomCarteReseau" admin=enable
+## <u>ipconfig /renew</u>
 
-## netsh int set int name="NomCarteReseau" admin=disable
+## <u>netsh int set int name="NomCarteReseau" admin=enable</u>
 
-## route ADD 0.0.0.0 MASK
+## <u>netsh int set int name="NomCarteReseau" admin=disable</u>
 
-## route delete 0.0.0.0
+## <u>route ADD 0.0.0.0 MASK</u>
 
-## ifconfig /all
+## <u>route delete 0.0.0.0</u>
 
-## ipconfig /release
+## <u>ifconfig /all</u>
 
-## arp
+## <u>ipconfig /release</u>
 
-## arp -d
+## <u>arp</u>
 
-## 	encours1
+## <u>arp -d</u>
 
-## tracert @'ip'
+## <u>encours1</u>
 
-## encours2
+## <u>tracert @'ip'</u>
 
-## 	netstat
+## <u>encours2</u>
 
-## 	telnet
+## <u>netstat</u>
+
+## <u>telnet</u>
