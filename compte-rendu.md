@@ -68,16 +68,16 @@ ls||
 
 
 ## <u>ip link set down dev "Nom De Votre Interface"</u>
-#### Cette commande permet d’activer la carte réseau demandée.
+#### Cette commande permet d’éteindre la carte réseau demandée.
 
 
 
 ## <u>ip route add default via ‘@ip’ dev "Nom De Votre Interface"</u>
-#### Cette commande permet d’éteindre la carte réseau demandée.
+#### Cette commande permet d’ajouter une route par défaut.
 
 
 ## <u>ip route flush dev "Nom De Votre Interface"</u>
-#### Cette commande permet d’ajouter une route par défaut.
+#### 
 
 
 
