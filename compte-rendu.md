@@ -64,53 +64,58 @@ ls||
 
 ## <u>ip link set up dev "Nom De Votre Interface"</u>
 #### Cette commande permet d’activer la carte réseau demandée.
-
+![ip link set up dev](images/setup.png)
 
 
 ## <u>ip link set down dev "Nom De Votre Interface"</u>
 #### Cette commande permet d’éteindre la carte réseau demandée.
+![ip link set down dev](images/setdown.png)
 
 
 
 ## <u>ip route add default via ‘@ip’ dev "Nom De Votre Interface"</u>
 #### Cette commande permet d’ajouter une route par défaut.
+![ip route add default via](images/routedefault.png)
 
 
 ## <u>ip route flush dev "Nom De Votre Interface"</u>
 #### Suprimme toutes les routes, default et static.
-
+![ip route flush dev](images/routeflush.png)
 
 
 ## <u>mii-tool -w "Nom De Votre Interface"</u>
 #### Permet de voir l’état de la liaison link ok/link no. Si la carte réseau est bien branchée sur le réseau.
-
+![mii-tool](images/mii-tool.png)
 
 
 
 ## <u>ip link show "Nom De Votre Interface"</u>
 #### Pour regarder l’état de la carte réseau.
+![ip link show](images/linkshow.png)
 
 
 ## <u>ip addr flush dev "Nom De Votre Interface"</u>
 #### Supprime les adresses IP de cette interface.
-
+![ip addr flush dev](images/addrflush.png)
 
 ## <u>ip neighbour</u>
 #### Permet de voir le cache ARP.
-
+![ip neight](images/ip-neighbour.png)
 
 ## <u>ip neighbour flush all</u>
 #### Permet de supprimer le cache ARP.
-
+![ip neighbour flush all](images/neighbour-flush-all.png)
 
 
 ## <u>ifconfig</u>
-#### 
+####
+![ifconfig](images/ifconfig.png)
 
 
 
 ## <u>traceroute @'ip'</u>
-#### 
+####
+![traceroute](images/traceroute.png)
 
 
 
