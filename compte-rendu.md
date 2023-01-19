@@ -3,8 +3,8 @@
 ## Présentation :
 Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS les plus utilisé sous linux et windows.
 ## Sommaire :
-* Commandes Réseaux
-* Commandes OS
+* [Commandes Réseaux](#commandes-réseau)
+* [Commandes OS](#commandes-os)
 
 
 # Commandes Réseau
@@ -81,24 +81,25 @@ ls||
 
 
 ## mii-tool -w "Nom De Votre Interface"
-#### 
+#### Permet de voir l’état de la liaison link ok/link no. Si la carte réseau est bien branchée sur le réseau.
+
 
 
 
 ## ip link show "Nom De Votre Interface"
-#### 
+#### Pour regarder l’état de la carte réseau.
 
 
 ## ip addr flush dev "Nom De Votre Interface"
-#### 
+#### Supprime les adresses IP de cette interface.
 
 
 ## ip neighbour
-#### 
+#### Permet de voir le cache ARP.
 
 
 ## ip neighbour flush all
-#### 
+#### Permet de supprimer le cache ARP.
 
 
 
