@@ -5,13 +5,13 @@ Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS
 ## Sommaire :
 * [Commandes Réseaux](#commandes-réseau)
 * [Commandes OS](#commandes-os)
-
+* [Installation de Windows sur une VM]
 
 # Commandes Réseau
 |LINUX | RACCOURCI | WINDOWS 
 |-|-|-|
-[ip addr show](#ip-addr-show)|ip a|[if config](#if-config)
-[ping '@ip'](#ping-@ip)||[ping '@ip'](#ping-ip-1)
+[ip addr show](#ip-addr-show)|ip a|[ipconfig](#ip   config)
+[ping '@ip'](#ping-ip)||[ping '@ip'](#ping-ip-1)
 [ip addr add '@ip' dev "Nom De Votre Interface"](#ip-addr-add-ip-dev-nom-de-votre-interface)|ip a a ‘@ip’ dev "Nom De Votre Interface"|[netsh interface ip set address name="interface" static '@ip' masque '@DNS'](#netsh-interface-ip-set-address-nameinterface-static-ip-masque-dns)
 [ip addr del ‘@ip’ dev "Nom De Votre Interface"](#ip-addr-del-ip-dev-nom-de-votre-interface)|ip a del ‘@ip’ dev "Nom De Votre Interface"|[ipconfig /release](#ipconfig-release)
 [dhclient](#dhclient)||[ipconfig /renew](#ipconfig-renew)
@@ -42,131 +42,136 @@ ls||
 
 # Détail et utilisations des commandes Linux :
 
-## <u>ip addr show</u>
+## ip addr show
 #### Affiche toute la configuration réseau (Adresse IP, nom des interfaces, etc…)
 ![ipaddrshow](images/ipaddrshow.png)
 
-## <u>ping @ip</u>
+## ping @ip
 #### Envoie des paquets icmp à l’adresse donnée. On peut l’utiliser pour voir si une machine est bien connectée au réseau.
 ![ping](images/ping.png)
 
-## <u>ip addr add '@ip' dev "Nom De Votre Interface"</u>
+## ip addr add '@ip' dev "Nom De Votre Interface"
 #### Permet d’ajouter une adresse IP à votre machine. Avec ip a on peut voir que l’adresse IP a bien été ajoutée à l’interface demandé.
 ![ipaddradd](images/ipaddradd.png)
 
-## <u>ip addr del ‘@ip’ dev "Nom De Votre Interface"</u>
+## ip addr del ‘@ip’ dev "Nom De Votre Interface"
 #### Permet de supprimer une adresse ip précise.
 ![ipaddrdel](images/ipaddrdel.png)
 
-## <u>dhclient</u>
+## dhclient
 #### dhclient fonctionne sur le modèle client-serveur. Un serveur qui détient la politique d’attribution des configurations IP envoie une configuration au client pour une durée donnée.
 ![dhclient](images/dhcleint_.png)
 
-## <u>ip link set up dev "Nom De Votre Interface"</u>
+## ip link set up dev "Nom De Votre Interface"
 #### Cette commande permet d’activer la carte réseau demandée.
 ![ip link set up dev](images/setup.png)
 
 
-## <u>ip link set down dev "Nom De Votre Interface"</u>
+## ip link set down dev "Nom De Votre Interface"
 #### Cette commande permet d’éteindre la carte réseau demandée.
 ![ip link set down dev](images/setdown.png)
 
 
 
-## <u>ip route add default via ‘@ip’ dev "Nom De Votre Interface"</u>
+## ip route add default via ‘@ip’ dev "Nom De Votre Interface"
 #### Cette commande permet d’ajouter une route par défaut.
 ![ip route add default via](images/routedefault.png)
 
 
-## <u>ip route flush dev "Nom De Votre Interface"</u>
+## ip route flush dev "Nom De Votre Interface"
 #### Suprimme toutes les routes, default et static.
 ![ip route flush dev](images/routeflush.png)
 
 
-## <u>mii-tool -w "Nom De Votre Interface"</u>
+## mii-tool -w "Nom De Votre Interface"
 #### Permet de voir l’état de la liaison link ok/link no. Si la carte réseau est bien branchée sur le réseau.
 ![mii-tool](images/mii-tool.png)
 
 
 
-## <u>ip link show "Nom De Votre Interface"</u>
+## ip link show "Nom De Votre Interface"
 #### Pour regarder l’état de la carte réseau.
 ![ip link show](images/linkshow.png)
 
 
-## <u>ip addr flush dev "Nom De Votre Interface"</u>
+## ip addr flush dev "Nom De Votre Interface"
 #### Supprime les adresses IP de cette interface.
 ![ip addr flush dev](images/addrflush.png)
 
-## <u>ip neighbour</u>
+## ip neighbour
 #### Permet de voir le cache ARP.
 ![ip neight](images/ip-neighbour.png)
 
-## <u>ip neighbour flush all</u>
+## ip neighbour flush all
 #### Permet de supprimer le cache ARP.
 ![ip neighbour flush all](images/neighbour-flush-all.png)
 
 
-## <u>ifconfig</u>
+## ifconfig
 ####
 ![ifconfig](images/ifconfig.png)
 
 
 
-## <u>traceroute @'ip'</u>
+## traceroute @'ip'
 ####
 ![traceroute](images/traceroute.png)
 
 
 
-## <u>host</u>
+## host
 #### 
 
 
 
-## <u>netstat</u>
+## netstat
 #### 
 
 
-## <u>telnet</u>
-#### 
+## telnet
+####
 
 
 # Détail et utilisations des commandes Windows :
 
 
-## <u>if config</u>
+## ipconfig
 
-## <u>ping '@ip'</u>
+## ping '@ip'
 
-## <u>netsh interface ip set address name="interface" static '@ip' masque '@DNS'</u>
+## netsh interface ip set address name="interface" static '@ip' masque '@DNS'
 
-## <u>ipconfig /release</u>
+## ipconfig /release
 
-## <u>ipconfig /renew</u>
+## ipconfig /renew
 
-## <u>netsh int set int name="NomCarteReseau" admin=enable</u>
+## netsh int set int name="NomCarteReseau" admin=enable
 
-## <u>netsh int set int name="NomCarteReseau" admin=disable</u>
+## netsh int set int name="NomCarteReseau" admin=disable
 
-## <u>route ADD 0.0.0.0 MASK</u>
+## route ADD 0.0.0.0 MASK
 
-## <u>route delete 0.0.0.0</u>
+## route delete 0.0.0.0
 
-## <u>ifconfig /all</u>
+## ifconfig /all
 
-## <u>ipconfig /release</u>
+## ipconfig /release
 
-## <u>arp</u>
+## arp
 
-## <u>arp -d</u>
+## arp -d
 
-## <u>encours1</u>
+## encours1
 
-## <u>tracert @'ip'</u>
+## tracert @'ip'
 
-## <u>encours2</u>
+## encours2
 
-## <u>netstat</u>
+## netstat
 
-## <u>telnet</u>
+## telnet
+
+<div id="scroll_to_top">
+    <a href="#top"><img src="hdp.png" alt="Retourner en haut"/></a>
+    <h5>TOP</h5>
+</div>
