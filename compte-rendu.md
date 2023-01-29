@@ -136,42 +136,57 @@ ls||
 
 
 ## ipconfig
+#### Cette commande affiche la configuration IP
 ![ipconfig](wimages/ipconfig.JPG)
 
 ## ping '@ip'
+#### Envoie des paquets icmp à l’adresse donnée. On peut l’utiliser pour voir si une machine est bien connectée au réseau.
 ![ping](wimages/ping.JPG)
 
 ## netsh interface ip set address name="interface" static '@ip' masque 'Gateway'
+#### Cette commande permet d'ajouter une addresse IP sur l'interface choisie (ici 'Ethernet') en Static ou Dynamique. La commande necessite l'addresse IP voulu, son masque et la passerelle.
 ![setaddress](wimages/setaddress.JPG)
+![setaddressv2](wimages/setaddressv2.JPG)
+
 
 ## ipconfig /release
+#### Cette commande permet de libérer' une adresse IP (dynamique) attribuée.
 ![release](wimages/ipconfigrelease.JPG)
 
 ## ipconfig /renew
+#### Cette commande permet de réatribuer' une adresse IP (dynamique).
 ![renew](wimages/ipconfigrenew.JPG)
 
 ## netsh int set int name="NomCarteReseau" admin=enable
+#### Cette commande permet d'activer la carte réseau (ici'Ethernet').
 ![enable](wimages/enable.JPG)
 
 ## netsh int set int name="NomCarteReseau" admin=disable
+#### Cette commande permet de désactiver la carte réseau (ici'Ethernet').
 ![disable](wimages/disable.JPG)
 
 ## route ADD 0.0.0.0 MASK
+#### Cette commande permet d'ajouter une route
 ![routeadd](wimages/routeadd.JPG)
 
 ## route delete 0.0.0.0
+#### Cette commande permet de suprimer une route.
 ![routedelete](wimages/routedelete.JPG)
 
 ## ifconfig /all
+#### Cette commande permet d'avoir les informations détaillées de toutes les cartes réseau.
 ![all](wimages/ipconfigall.JPG)
 
 ## ipconfig /release
+#### Cette commande permet de libérer' une adresse IP (dynamique) attribuée.
 ![release](wimages/ipconfigrelease.JPG)
 
 ## arp
+#### Cette commande permet de voir le cache ARP.
 ![arp](wimages/arp.JPG)
 
 ## arp -d
+#### Cette commande permet de suprimmer le cache ARP.
 ![arpdelete](wimages/arpdelete.JPG)
 
 ## encours1
