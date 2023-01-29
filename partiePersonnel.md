@@ -5,25 +5,25 @@
 * [Installation d'un routeur Mikrotik](#installation-dun-routeur-mikrotik)
 
 # Installation d'une machine Virtuelle
-1. Pour l'instalation de la machine virtuelle j'ai choisis d'utilier VMware. Que j'ai télécharger a l'addresse : https://www.vmware.com/fr/products/workstation-pro/workstation-pro-evaluation.html.
+### 1. Pour l'instalation de la machine virtuelle j'ai choisis d'utilier VMware. Que j'ai télécharger a l'addresse : https://www.vmware.com/fr/products/workstation-pro/workstation-pro-evaluation.html.
 
 ![vm3](vm/vm3.JPG)
 ![vm2](vm/vm2.JPG)
 
-2. Ensuite j'ai téléchargé l'image du système d'exploitation que je souhaitais utiliser (ici 'UBUNTU').
+### 2. Ensuite j'ai téléchargé l'image du système d'exploitation que je souhaitais utiliser (ici 'UBUNTU').
 
 ![vm4](vm/vm4.JPG)
 
-3. Pour créer la machine Virtuelle dans VMware. Je me suis rendu dans l'onglet -->File -->New Virtual Machine.
+### 3. Pour créer la machine Virtuelle dans VMware. Je me suis rendu dans l'onglet -->File -->New Virtual Machine.
 
 ![vm6](vm/vm6.JPG)
 
-4. Puis j'ai selectionner l'image ISO téléchargé précédament. Et suivie la procédure d'instalation (alocation des ressources, choix des langues, etc...).
+### 4. Puis j'ai selectionner l'image ISO téléchargé précédament. Et suivie la procédure d'instalation (alocation des ressources, choix des langues, etc...).
 
 ![vm5](vm/vm5.JPG)
 ![vm1](vm/vm1.JPG)
 
-5. Et voici la Machine Virtuelle installé et prête à l'emploie.
+### 5. Et voici la Machine Virtuelle installé et prête à l'emploie.
 
 ![vm7](vm/vm7.JPG)
 

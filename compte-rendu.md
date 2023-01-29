@@ -28,10 +28,7 @@ Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS
 [ip neighbour](#ip-neighbour)|ip n|[arp](#arp)
 [ip neighbour flush all](#ip-neighbour-flush-all)|ip n flush all|[arp -d](#arp--d)
 [ifconfig](#ifconfig)||[encours1](#encours1)
-[traceroute @'ip'](#traceroute-ip)||[tracert @'ip'](#tracert-ip)
-[host](#host)||[encours2](#encours2)
-[netstat](#netstat)||[netstat](#netstat-1)
-[telnet](#telnet)||[telnet](#telnet-1)
+[traceroute @'ip'](#traceroute-ip)||
 
 # Commandes OS
 | LINUX | RACCOURCI | WINDOWS
@@ -122,18 +119,6 @@ ls||
 
 
 
-## host
-#### 
-
-
-
-## netstat
-#### 
-
-
-## telnet
-####
-
 
 # Détail et utilisations des commandes Windows :
 
@@ -192,15 +177,6 @@ ls||
 #### Cette commande permet de suprimmer le cache ARP.
 ![arpdelete](wimages/arpdelete.JPG)
 
-## encours1
-
-## tracert @'ip'
-
-## encours2
-
-## netstat
-
-## telnet
 
 <div id="scroll_to_top">
     <a href="#top"><img src="hdp.png" alt="Retourner en haut"/></a>
