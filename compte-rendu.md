@@ -31,13 +31,20 @@ Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS
 [traceroute @'ip'](#traceroute-ip)||
 
 # Commandes OS
-| LINUX | RACCOURCI | WINDOWS
+| LINUX | UTILITE | WINDOWS
 |-|-|-|
-cd||
-ls||
-
-
-
+cd "nom Fichier"|se déplacer | cd 
+ls|donne la liste ds fichiers et répértoires|dir
+tree| arborescence des fichiers|tree
+alias nomV="contenu"|attribuer une donnée ou chaine de caracteres a une variable | set nomV="contenu"
+mkdir "nomRepertoire"|créer un répértoire| mkdir "nom repertoire"
+pwd|afficher le repertoire courant|..
+touch "nomFichier"| creer fichier | md "nomFichier"
+echo "valeur" > nomFichier.txt|ecrire dans un fichier texte | echo "valeur">nomFichier.txt
+cat "nomFichier"| afficher le contenu d'un fichier texte| more nomFichier.txt
+rm nomFichier|supprimer fichier| rm nomFichier
+rmdir nomFichier| supprimer repertoire | rmdir nomFichier
+find 
 
 
 # Détail et utilisations des commandes Linux :
