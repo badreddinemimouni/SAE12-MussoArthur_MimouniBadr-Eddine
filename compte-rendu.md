@@ -31,7 +31,7 @@ Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS
 [traceroute @'ip'](#traceroute-ip)||
 
 # Commandes OS
-| LINUX | UTILITE | WINDOWS
+| LINUX | UTILITE | WINDOWS 
 |-|-|-|
 cd "nom Fichier"|se déplacer | cd 
 ls|donne la liste ds fichiers et répértoires|dir

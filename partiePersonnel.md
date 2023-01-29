@@ -15,7 +15,7 @@
 ![vm4](vm/vm4.JPG)
 
 ### 3. Pour créer la machine Virtuelle dans VMware. Je me suis rendu dans l'onglet -->File -->New Virtual Machine.
-
+ 
 ![vm6](vm/vm6.JPG)
 
 ### 4. Puis j'ai sélectionné l'image ISO téléchargé précédemment. Et suivait la procédure d'installation (allocation des ressources, choix des langues, etc....).
