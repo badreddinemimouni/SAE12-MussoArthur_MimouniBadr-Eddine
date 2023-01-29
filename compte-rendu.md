@@ -1,11 +1,14 @@
 # DICTIONNAIRE DES COMMANDES RESEAUX ET OS SUR LINUX ET WINDOWS
 
+
+
 ## Présentation :
 Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS les plus utilisé sous linux et windows.
+* ### <u>Arthur :</u> Création de toute la partie commandes Réseau. Ajout d'un bouton static en HTML/CSS pour pouvoir remonter tout en haut de la page.
+* ### <u>Badr :</u> Création de toute la partie commandes OS.
 ## Sommaire :
 * [Commandes Réseaux](#commandes-réseau)
 * [Commandes OS](#commandes-os)
-* [Installation de Windows sur une VM]
 
 # Commandes Réseau
 |LINUX | RACCOURCI | WINDOWS 
