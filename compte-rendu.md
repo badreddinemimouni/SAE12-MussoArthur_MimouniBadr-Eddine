@@ -10,7 +10,7 @@ Dans ce doccument vous allez pouvoir retrouver toutes les commande réseau et OS
 # Commandes Réseau
 |LINUX | RACCOURCI | WINDOWS 
 |-|-|-|
-[ip addr show](#ip-addr-show)|ip a|[ipconfig](#ip   config)
+[ip addr show](#ip-addr-show)|ip a|[ipconfig](#ipconfig)
 [ping '@ip'](#ping-ip)||[ping '@ip'](#ping-ip-1)
 [ip addr add '@ip' dev "Nom De Votre Interface"](#ip-addr-add-ip-dev-nom-de-votre-interface)|ip a a ‘@ip’ dev "Nom De Votre Interface"|[netsh interface ip set address name="interface" static '@ip' masque '@DNS'](#netsh-interface-ip-set-address-nameinterface-static-ip-masque-dns)
 [ip addr del ‘@ip’ dev "Nom De Votre Interface"](#ip-addr-del-ip-dev-nom-de-votre-interface)|ip a del ‘@ip’ dev "Nom De Votre Interface"|[ipconfig /release](#ipconfig-release)
@@ -136,30 +136,43 @@ ls||
 
 
 ## ipconfig
+![ipconfig](wimages/ipconfig.JPG)
 
 ## ping '@ip'
+![ping](wimages/ping.JPG)
 
-## netsh interface ip set address name="interface" static '@ip' masque '@DNS'
+## netsh interface ip set address name="interface" static '@ip' masque 'Gateway'
+![setaddress](wimages/setaddress.JPG)
 
 ## ipconfig /release
+![release](wimages/ipconfigrelease.JPG)
 
 ## ipconfig /renew
+![renew](wimages/ipconfigrenew.JPG)
 
 ## netsh int set int name="NomCarteReseau" admin=enable
+![enable](wimages/enable.JPG)
 
 ## netsh int set int name="NomCarteReseau" admin=disable
+![disable](wimages/disable.JPG)
 
 ## route ADD 0.0.0.0 MASK
+![routeadd](wimages/routeadd.JPG)
 
 ## route delete 0.0.0.0
+![routedelete](wimages/routedelete.JPG)
 
 ## ifconfig /all
+![all](wimages/ipconfigall.JPG)
 
 ## ipconfig /release
+![release](wimages/ipconfigrelease.JPG)
 
 ## arp
+![arp](wimages/arp.JPG)
 
 ## arp -d
+![arpdelete](wimages/arpdelete.JPG)
 
 ## encours1
 
